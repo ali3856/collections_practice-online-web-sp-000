@@ -1,5 +1,5 @@
 def sort_array_asc
-end 
+end
 
 def sort_array_desc
 end
@@ -24,4 +24,3 @@ end
 
 def add_s
 end
-
