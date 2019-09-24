@@ -15,12 +15,12 @@ def swap_elements (strings)
  return strings
 end
 
-def reverse_array
+def reverse_array (integers)
   new_array = integers.reverse
   new_array
 end
 
-def kesha_maker
+def kesha_maker (array)
   kesha = []
   array.each do |word|
     word_array = word.split ""
@@ -30,15 +30,15 @@ def kesha_maker
   kesha
 end
 
-def find_a
+def find_a (array)
   array.select{|string| string.start_with?("a")}
 end
 
-def sum_array
+def sum_array (integers)
   integers.inject{|sum, n| sum + n}
 end
 
-def add_s
+def add_s (array)
   array.each_with_index.collect do |string, index|
     if index == 1
       string
